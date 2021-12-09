@@ -1,6 +1,4 @@
-const { table } = require("console");
 const fs = require("fs");
-const { parse } = require("path/posix");
 
 let data;
 
