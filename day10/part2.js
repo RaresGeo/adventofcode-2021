@@ -28,7 +28,6 @@ let stack = [];
 let score = 0;
 
 data.forEach((line) => {
-  stack = [];
   line.forEach((element) => {
     if (Object.keys(closingTags).includes(element)) {
       stack.push(element);
